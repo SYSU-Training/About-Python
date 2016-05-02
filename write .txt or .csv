@@ -1,0 +1,17 @@
+#1
+import csv
+csvfile = file('e://np_clean.csv', 'wb')
+writer = csv.writer(csvfile)
+writer.writerows(n)
+csvfile.close()
+# apply for list and numpy.array
+# not apply for pandas.DataFrame
+
+#2
+f=open("E://f.txt",'w')
+f.writelines("a")  #f.writeline(a)
+f.close()
+
+#3
+m.to_csv('E://pd_clean.csv', sep='\t', encoding='utf-8') #\t ->comma
+
